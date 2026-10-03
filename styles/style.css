@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #222;
+    line-height: 1.5;
+    background-color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.logo-img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.header-link {
+    color: #999;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 20px;
+    gap: 40px;
+}
+
+.text-content {
+    flex: 1;
+    max-width: 500px;
+}
+
+.text-content h1,
+.text-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.text-content p {
+    font-size: 18px;
+    color: #555;
+}
+
+.image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.cta-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cta-content p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+  
+}
+
+.btn-outline {
+    border: 1px solid #ccc;
+    color: #333;
+    background: transparent;
+}
+
+.btn-primary {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+
+    .text-content {
+        margin-bottom: 30px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+    }
